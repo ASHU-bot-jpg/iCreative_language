@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        roboto: ['Roboto', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,15 +51,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // iCreative Learning custom colors
+        icreative: {
+          purple: "hsl(var(--icreative-purple))",
+          magenta: "hsl(var(--icreative-magenta))",
+          green: "hsl(var(--icreative-green))",
+          pink: "hsl(var(--icreative-pink))",
+          'light-pink': "hsl(var(--icreative-light-pink))",
+          grey: "hsl(var(--icreative-grey))",
+          'dark-grey': "hsl(var(--icreative-dark-grey))",
         },
       },
       borderRadius: {
