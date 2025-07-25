@@ -155,7 +155,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* Focus on Cognitive Development */}
             <div className="bg-white/0 text-center p-6 space-y-4">
               <div className="w-16 h-16 bg-icreative-pink rounded-full flex items-center justify-center mx-auto">
