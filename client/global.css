@@ -94,39 +94,39 @@
   .icreative-purple {
     color: hsl(var(--icreative-purple));
   }
-  
+
   .bg-icreative-purple {
     background-color: hsl(var(--icreative-purple));
   }
-  
+
   .icreative-magenta {
     color: hsl(var(--icreative-magenta));
   }
-  
+
   .bg-icreative-magenta {
     background-color: hsl(var(--icreative-magenta));
   }
-  
+
   .icreative-green {
     color: hsl(var(--icreative-green));
   }
-  
+
   .bg-icreative-green {
     background-color: hsl(var(--icreative-green));
   }
-  
+
   .bg-icreative-pink {
     background-color: hsl(var(--icreative-pink));
   }
-  
+
   .bg-icreative-light-pink {
     background-color: hsl(var(--icreative-light-pink));
   }
-  
+
   .bg-icreative-grey {
     background-color: hsl(var(--icreative-grey));
   }
 }
 
 /* Font imports for design fidelity */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");

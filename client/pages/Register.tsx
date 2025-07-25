@@ -10,23 +10,25 @@ export default function Register() {
     parentName: "",
     childGrade: "",
     programs: [] as string[],
-    hearAbout: ""
+    hearAbout: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleProgramChange = (program: string) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       programs: prev.programs.includes(program)
-        ? prev.programs.filter(p => p !== program)
-        : [...prev.programs, program]
+        ? prev.programs.filter((p) => p !== program)
+        : [...prev.programs, program],
     }));
   };
 
@@ -34,13 +36,15 @@ export default function Register() {
     e.preventDefault();
     console.log("Form submitted:", formData);
     // Handle form submission here
-    alert("Thank you for registering! We'll contact you soon to schedule your free assessment.");
+    alert(
+      "Thank you for registering! We'll contact you soon to schedule your free assessment.",
+    );
   };
 
   return (
     <div className="min-h-screen bg-icreative-pink">
       <Navigation />
-      
+
       {/* Page Header */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 lg:px-20 text-center">
@@ -48,7 +52,8 @@ export default function Register() {
             Registration
           </h1>
           <p className="text-2xl lg:text-3xl text-black font-roboto">
-            Register here to receive iCreative Learning Program Curriculum and Demo Class
+            Register here to receive iCreative Learning Program Curriculum and
+            Demo Class
           </p>
         </div>
       </section>
@@ -146,16 +151,21 @@ export default function Register() {
                 {[
                   "Abacus Arithmetic (Grades 1-5)",
                   "Language Arts (Grades 1-5)",
-                  "Math Program (Grades 1-5)"
-                ].map(program => (
-                  <label key={program} className="flex items-center space-x-3 cursor-pointer">
+                  "Math Program (Grades 1-5)",
+                ].map((program) => (
+                  <label
+                    key={program}
+                    className="flex items-center space-x-3 cursor-pointer"
+                  >
                     <input
                       type="checkbox"
                       className="w-8 h-8 rounded border-2 border-gray-400 focus:ring-icreative-purple"
                       checked={formData.programs.includes(program)}
                       onChange={() => handleProgramChange(program)}
                     />
-                    <span className="text-2xl text-black font-roboto">{program}</span>
+                    <span className="text-2xl text-black font-roboto">
+                      {program}
+                    </span>
                   </label>
                 ))}
               </div>
@@ -186,7 +196,8 @@ export default function Register() {
             {/* Disclaimer */}
             <div className="text-center py-8">
               <p className="text-2xl text-black font-roboto max-w-4xl mx-auto">
-                By submitting your information, you're giving us permission to email you. You may unsubscribe at any time.
+                By submitting your information, you're giving us permission to
+                email you. You may unsubscribe at any time.
               </p>
             </div>
 

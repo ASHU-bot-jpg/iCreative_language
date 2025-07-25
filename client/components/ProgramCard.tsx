@@ -9,16 +9,18 @@ interface ProgramCardProps {
   className?: string;
 }
 
-export default function ProgramCard({ 
-  title, 
-  imageSrc, 
-  imageAlt, 
-  tags, 
+export default function ProgramCard({
+  title,
+  imageSrc,
+  imageAlt,
+  tags,
   href = "/register",
-  className = ""
+  className = "",
 }: ProgramCardProps) {
   return (
-    <div className={`bg-icreative-grey rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow ${className}`}>
+    <div
+      className={`bg-icreative-grey rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow ${className}`}
+    >
       <img
         src={imageSrc}
         alt={imageAlt}
@@ -33,7 +35,10 @@ export default function ProgramCard({
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 sm:gap-3 mb-4 sm:mb-6">
             {tags.map((tag, index) => (
-              <span key={index} className="bg-icreative-purple text-white px-3 sm:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm">
+              <span
+                key={index}
+                className="bg-icreative-purple text-white px-3 sm:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm"
+              >
                 {tag}
               </span>
             ))}

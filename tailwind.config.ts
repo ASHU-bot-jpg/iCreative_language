@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        roboto: ['Roboto', 'system-ui', 'sans-serif'],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        roboto: ["Roboto", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -57,9 +57,9 @@ export default {
           magenta: "hsl(var(--icreative-magenta))",
           green: "hsl(var(--icreative-green))",
           pink: "hsl(var(--icreative-pink))",
-          'light-pink': "hsl(var(--icreative-light-pink))",
+          "light-pink": "hsl(var(--icreative-light-pink))",
           grey: "hsl(var(--icreative-grey))",
-          'dark-grey': "hsl(var(--icreative-dark-grey))",
+          "dark-grey": "hsl(var(--icreative-dark-grey))",
         },
       },
       borderRadius: {

@@ -6,44 +6,48 @@ import ProgramCard from "../components/ProgramCard";
 const programs = [
   {
     title: "Cognitive Math",
-    imageSrc: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=550&h=370&fit=crop&auto=format",
+    imageSrc:
+      "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=550&h=370&fit=crop&auto=format",
     imageAlt: "Cognitive Math Program",
     tags: [
       "Hands-on Math Activities",
       "Applied math in everyday situations",
-      "Logic puzzles & brainy games"
-    ]
+      "Logic puzzles & brainy games",
+    ],
   },
   {
     title: "English Language Arts (ELA)",
-    imageSrc: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=550&h=370&fit=crop&auto=format",
+    imageSrc:
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=550&h=370&fit=crop&auto=format",
     imageAlt: "English Language Arts Program",
     tags: [
       "Creative writing and storytelling",
       "Grammar games and Vocabulary building",
-      "Reading comprehension with interactive exercises"
-    ]
+      "Reading comprehension with interactive exercises",
+    ],
   },
   {
     title: "Abacus",
-    imageSrc: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=550&h=370&fit=crop&auto=format",
+    imageSrc:
+      "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=550&h=370&fit=crop&auto=format",
     imageAlt: "Abacus Program",
     tags: [
       "Mental Math Mastery",
       "Boosts Concentration and Memory",
-      "Builds Confidence and Academic Readiness"
-    ]
+      "Builds Confidence and Academic Readiness",
+    ],
   },
   {
     title: "CogAT",
-    imageSrc: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=550&h=370&fit=crop&auto=format",
+    imageSrc:
+      "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=550&h=370&fit=crop&auto=format",
     imageAlt: "CogAT Program",
     tags: [
       "Sharpens Logical and Abstract Thinking",
       "Prepares for gifted and talented testing",
-      "Encourages Cognitive Flexibility"
-    ]
-  }
+      "Encourages Cognitive Flexibility",
+    ],
+  },
 ];
 
 export default function Programs() {
@@ -84,7 +88,8 @@ export default function Programs() {
             Ready to Start Your Child's Learning Journey?
           </h2>
           <p className="text-base text-white mb-8 max-w-3xl mx-auto font-roboto">
-            Join our community of successful learners and watch your child's confidence and abilities soar.
+            Join our community of successful learners and watch your child's
+            confidence and abilities soar.
           </p>
           <Link
             to="/register"
