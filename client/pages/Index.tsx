@@ -8,33 +8,33 @@ export default function Index() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-8">
-        <div className="grid lg:grid-cols-2 gap-8 items-center">
+      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-4 sm:py-8">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
           {/* Left Content */}
-          <div className="space-y-6">
-            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-icreative-purple font-roboto leading-tight">
+          <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-icreative-purple font-roboto leading-tight">
               Empowering Elementary Students Through Creative, Fun, and Effective Learning Programs.
             </h1>
-            
-            <p className="text-xl lg:text-2xl text-gray-800 font-roboto">
+
+            <p className="text-lg sm:text-xl lg:text-2xl text-gray-800 font-roboto">
               Backed by Research, Theories of Learning, and Cognitive Psychology.
             </p>
-            
+
             <Link
               to="/register"
-              className="inline-flex items-center px-8 py-4 bg-icreative-green text-black font-bold text-base rounded-3xl hover:bg-opacity-90 transition-colors shadow-lg shadow-white/50"
+              className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-icreative-green text-black font-bold text-sm sm:text-base rounded-3xl hover:bg-opacity-90 transition-colors shadow-lg shadow-white/50"
             >
               Book Your Free Assessment
             </Link>
           </div>
 
           {/* Right Content - Hero Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end order-first lg:order-last">
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=300&fit=crop&auto=format"
                 alt="Smiley kids in the main plan"
-                className="w-full max-w-lg h-80 object-cover rounded-3xl shadow-lg"
+                className="w-full max-w-lg h-60 sm:h-80 object-cover rounded-3xl shadow-lg"
               />
             </div>
           </div>
