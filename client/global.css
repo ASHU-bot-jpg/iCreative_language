@@ -4,10 +4,9 @@
 
 @layer base {
   /**
-   * Tailwind CSS theme
-   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
-   * A different format will require also updating the theme in tailwind.config.ts.
-  */
+   * iCreative Learning theme
+   * Custom HSL color variables for the educational platform design
+   */
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -18,11 +17,13 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary purple color - #790F8B */
+    --primary: 302 80% 31%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary magenta - #8E057C */
+    --secondary: 307 90% 29%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -39,21 +40,14 @@
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Custom iCreative colors */
+    --icreative-purple: 302 80% 31%; /* #790F8B */
+    --icreative-magenta: 307 90% 29%; /* #8E057C */
+    --icreative-green: 122 85% 69%; /* #73EF7C */
+    --icreative-pink: 302 41% 93%; /* #F0E2F2 */
+    --icreative-light-pink: 319 100% 97%; /* #FEF5FF */
+    --icreative-grey: 0 0% 96%; /* #F4F4F4 */
+    --icreative-dark-grey: 0 0% 8%; /* #161616 */
   }
 
   .dark {
@@ -66,8 +60,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 302 80% 31%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -84,14 +78,6 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
@@ -101,6 +87,46 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Custom utility classes for iCreative design */
+  .icreative-purple {
+    color: hsl(var(--icreative-purple));
+  }
+  
+  .bg-icreative-purple {
+    background-color: hsl(var(--icreative-purple));
+  }
+  
+  .icreative-magenta {
+    color: hsl(var(--icreative-magenta));
+  }
+  
+  .bg-icreative-magenta {
+    background-color: hsl(var(--icreative-magenta));
+  }
+  
+  .icreative-green {
+    color: hsl(var(--icreative-green));
+  }
+  
+  .bg-icreative-green {
+    background-color: hsl(var(--icreative-green));
+  }
+  
+  .bg-icreative-pink {
+    background-color: hsl(var(--icreative-pink));
+  }
+  
+  .bg-icreative-light-pink {
+    background-color: hsl(var(--icreative-light-pink));
+  }
+  
+  .bg-icreative-grey {
+    background-color: hsl(var(--icreative-grey));
   }
 }
+
+/* Font imports for design fidelity */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
