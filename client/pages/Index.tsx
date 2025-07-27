@@ -8,7 +8,7 @@ export default function Index() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-4 sm:py-8 pt-28">
+      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-4 sm:py-8 pt-20">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
