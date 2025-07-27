@@ -14,9 +14,11 @@ export default function Navigation() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <div className="text-2xl font-bold text-icreative-purple">
-                <span className="text-icreative-green">i</span>Creative Learning
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F68419711c5bc48a6b172f93fecadbfeb?format=webp&width=800"
+                alt="iCreative Learning Logo"
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
 
