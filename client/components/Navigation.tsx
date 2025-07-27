@@ -10,7 +10,7 @@ export default function Navigation() {
   return (
     <nav className="bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50">
       <div className="w-full px-4 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
