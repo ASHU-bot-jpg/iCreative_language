@@ -7,7 +7,7 @@ export default function Cart() {
     <div className="min-h-screen bg-white">
       <Navigation />
 
-      <section className="py-16 pt-24">
+      <section className="py-16 pt-28">
         <div className="max-w-7xl mx-auto px-4 lg:px-20 text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-icreative-purple mb-8 font-roboto">
             Shopping Cart
