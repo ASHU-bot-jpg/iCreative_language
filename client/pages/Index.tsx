@@ -121,7 +121,7 @@ export default function Index() {
             {/* Abacus */}
             <div className="bg-icreative-grey rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=300&h=200&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F460004ba680a4abf941c2500c559e0a8?format=webp&width=800"
                 alt="Abacus Program"
                 className="w-full h-48 object-cover rounded-2xl mb-6"
               />

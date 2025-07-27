@@ -8,7 +8,7 @@ export default function Navigation() {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="bg-white border-b border-gray-200 relative z-50">
+    <nav className="bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50">
       <div className="w-full px-4 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}

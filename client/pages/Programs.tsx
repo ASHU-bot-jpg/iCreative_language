@@ -29,7 +29,7 @@ const programs = [
   {
     title: "Abacus",
     imageSrc:
-      "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=550&h=370&fit=crop&auto=format",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F460004ba680a4abf941c2500c559e0a8?format=webp&width=800",
     imageAlt: "Abacus Program",
     tags: [
       "Mental Math Mastery",
