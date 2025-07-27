@@ -13,7 +13,8 @@ export default function Index() {
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
             <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-icreative-purple font-roboto leading-normal">
-              Empowering Elementary Students Through Creative, Fun, and Effective Learning Programs.
+              Empowering Elementary Students Through Creative, Fun, and
+              Effective Learning Programs.
             </h1>
 
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-800 font-roboto">
