@@ -12,7 +12,7 @@ export default function Index() {
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-icreative-purple font-roboto leading-tight">
+            <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-icreative-purple font-roboto leading-normal">
               Empowering Elementary Students Through Creative, Fun, and
               Effective Learning Programs.
             </h1>
