@@ -56,7 +56,7 @@ export default function Programs() {
       <Navigation />
 
       {/* Page Header */}
-      <section className="py-8 sm:py-16 bg-white">
+      <section className="py-8 sm:py-16 bg-white pt-24">
         <div className="max-w-7xl mx-auto px-4 lg:px-20 text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-icreative-purple mb-8 font-roboto">
             Our Core Offerings

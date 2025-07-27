@@ -46,7 +46,7 @@ export default function Register() {
       <Navigation />
 
       {/* Page Header */}
-      <section className="py-16">
+      <section className="py-16 pt-24">
         <div className="max-w-4xl mx-auto px-4 lg:px-20 text-center">
           <h1 className="text-4xl lg:text-5xl font-bold text-icreative-purple mb-4 font-roboto">
             Registration
