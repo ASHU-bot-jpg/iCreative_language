@@ -86,7 +86,7 @@ export default function About() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2Fbce249a791bd4b109e06f3a7699ac023"
                 alt="Students learning together"
-                className="w-full h-80 object-cover rounded-2xl shadow-lg"
+                className="w-full h-66 object-cover rounded-2xl shadow-lg"
               />
             </div>
           </div>
