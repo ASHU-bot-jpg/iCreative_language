@@ -18,7 +18,13 @@ export default function About() {
               </h1>
 
               <p className="text-xl lg:text-2xl text-black font-roboto text-center mt-6 -ml-1 px-3.5">
-                At iCreative Learning, we believe that the early years of learning lay the foundation for a lifetime of success. That's why our after-school enrichment program for Grades 1–5 is thoughtfully designed to strengthen core skills in Math and English Language Arts (ELA) — not just for the present, but to set your child up for excellence in middle school, high school, and beyond.
+                At iCreative Learning, we believe that the early years of
+                learning lay the foundation for a lifetime of success. That's
+                why our after-school enrichment program for Grades 1–5 is
+                thoughtfully designed to strengthen core skills in Math and
+                English Language Arts (ELA) — not just for the present, but to
+                set your child up for excellence in middle school, high school,
+                and beyond.
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center">
@@ -185,7 +191,9 @@ export default function About() {
                 Ms. Nandita Mishra
               </h3>
               <p className="text-sm text-gray-500">
-                Hi! I have done Master's degree in Psychology. I am board certified teacher working with elementary students for the last 13 years. I'm part of iCreative Learning for the last 3 years!
+                Hi! I have done Master's degree in Psychology. I am board
+                certified teacher working with elementary students for the last
+                13 years. I'm part of iCreative Learning for the last 3 years!
               </p>
             </div>
 
@@ -199,7 +207,10 @@ export default function About() {
                 Ms. Santhoshi Kumar
               </h3>
               <p className="text-sm text-gray-500">
-                Certified early childhood educator with 8 years of Montessori experience and 6 years at iCreative Learning, passionate about teaching young children and nurturing their curiosity to foster lifelong learning.
+                Certified early childhood educator with 8 years of Montessori
+                experience and 6 years at iCreative Learning, passionate about
+                teaching young children and nurturing their curiosity to foster
+                lifelong learning.
               </p>
             </div>
 
@@ -213,7 +224,11 @@ export default function About() {
                 Ms. Bhagya
               </h3>
               <p className="text-sm text-gray-500">
-                With a Diploma in Elementary Teacher Education, I am a board certified Elementary Teacher. I have been working as a Mathematics teacher for Middle School students at the Public School for the past three years and have been part of iCreative Learning for the past year.
+                With a Diploma in Elementary Teacher Education, I am a board
+                certified Elementary Teacher. I have been working as a
+                Mathematics teacher for Middle School students at the Public
+                School for the past three years and have been part of iCreative
+                Learning for the past year.
               </p>
             </div>
           </div>
