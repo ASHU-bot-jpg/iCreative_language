@@ -84,7 +84,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2Fbce249a791bd4b109e06f3a7699ac023"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F86558bc355bf42a4ab9a1b3ef1b151ec"
                 alt="Students learning together"
                 className="w-full h-66 object-cover rounded-2xl shadow-lg"
               />
