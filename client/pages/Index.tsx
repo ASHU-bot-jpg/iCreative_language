@@ -34,7 +34,7 @@ export default function Index() {
           <div className="flex justify-center lg:justify-end order-first lg:order-last">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&h=300&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F2e114e41861d46d2a9c7db468074aa54?format=webp&width=800"
                 alt="Smiley kids in the main plan"
                 className="w-full max-w-lg h-60 sm:h-80 object-cover rounded-3xl shadow-lg"
               />
