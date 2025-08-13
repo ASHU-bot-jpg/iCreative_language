@@ -8,7 +8,7 @@ export default function Index() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-4 sm:py-8 pt-20">
+      <section className="max-w-7xl mx-auto px-4 lg:px-20 py-4 sm:py-8 pt-16">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
@@ -57,7 +57,7 @@ export default function Index() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-600 rounded-3xl opacity-20"></div>
               <img
-                src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&h=400&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F7b69f023d5684050b5644296d1a88582"
                 alt="Innovation elements"
                 className="w-full h-80 object-cover rounded-3xl relative z-10"
               />
@@ -79,7 +79,7 @@ export default function Index() {
             {/* CogAT */}
             <div className="bg-icreative-grey rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1509228468518-180dd4864904?w=300&h=200&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2Fd2648da984b74a3182e357486ae6e390"
                 alt="CogAT Program"
                 className="w-full h-48 object-cover rounded-2xl mb-6"
               />
@@ -93,7 +93,7 @@ export default function Index() {
             {/* Cognitive Math */}
             <div className="bg-icreative-grey rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=300&h=200&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F9991320143bb4a38609b0acd205800f1fecd1c14"
                 alt="Cognitive Math Program"
                 className="w-full h-48 object-cover rounded-2xl mb-6"
               />
@@ -107,7 +107,7 @@ export default function Index() {
             {/* ELA */}
             <div className="bg-icreative-grey rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <img
-                src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=200&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F3af1a4c868f7209af62fd7087a32248d4b577f3b"
                 alt="ELA Program"
                 className="w-full h-48 object-cover rounded-2xl mb-6"
               />
