@@ -8,22 +8,23 @@ export default function About() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="py-16 pt-20">
+      <section className="py-16 pt-16">
         <div className="max-w-7xl mx-auto px-4 lg:px-20">
           <div className="grid lg:grid-cols-3 gap-8 items-center">
             {/* Left Content */}
             <div className="lg:col-span-2 space-y-6">
               <h1 className="text-4xl lg:text-5xl font-bold text-icreative-purple font-roboto leading-tight">
-                Welcome to iCreative Learning
+                Building bright futures, One child at a time
               </h1>
-              <h2 className="text-2xl lg:text-3xl font-bold text-icreative-purple font-roboto text-right">
-                -Where Fun Meets Fundamentals
-              </h2>
 
-              <p className="text-xl lg:text-2xl text-black font-roboto text-center">
-                At ICreative Learning, we transform traditional Math and ELA
-                education into an exciting and engaging adventure. Our
-                after-school enrichment programs are designed to:
+              <p className="text-xl lg:text-2xl text-black font-roboto text-center mt-6 -ml-1 px-3.5">
+                At iCreative Learning, we believe that the early years of
+                learning lay the foundation for a lifetime of success. That's
+                why our after-school enrichment program for Grades 1–5 is
+                thoughtfully designed to strengthen core skills in Math and
+                English Language Arts (ELA) — not just for the present, but to
+                set your child up for excellence in middle school, high school,
+                and beyond.
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center">
@@ -42,7 +43,7 @@ export default function About() {
             {/* Right Content - Image */}
             <div className="flex justify-center">
               <img
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=500&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F963a8dc1af974c21b0eea8fef96024f2"
                 alt="Lovely little girl with a book pointing up"
                 className="w-full max-w-sm h-96 object-cover rounded-2xl"
               />
@@ -83,9 +84,9 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=500&h=400&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F86558bc355bf42a4ab9a1b3ef1b151ec"
                 alt="Students learning together"
-                className="w-full h-80 object-cover rounded-2xl shadow-lg"
+                className="w-full h-66 object-cover rounded-2xl shadow-lg"
               />
             </div>
           </div>
@@ -182,49 +183,52 @@ export default function About() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F50cd460d113f444195bd8d947322c08e"
                 alt="Teacher"
                 className="w-48 h-48 object-cover rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-icreative-purple mb-2">
-                Ms. Sarah Chen
+                Ms. Nandita Mishra
               </h3>
-              <p className="text-gray-600 mb-2">Lead Math Instructor</p>
               <p className="text-sm text-gray-500">
-                15+ years of experience in elementary mathematics education with
-                a focus on cognitive development.
+                Hi! I have done Master's degree in Psychology. I am board
+                certified teacher working with elementary students for the last
+                13 years. I'm part of iCreative Learning for the last 3 years!
               </p>
             </div>
 
             <div className="text-center">
               <img
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b647?w=300&h=300&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F8b0275fd07f24b09b0d9e4980f00203f"
                 alt="Teacher"
                 className="w-48 h-48 object-cover rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-icreative-purple mb-2">
-                Ms. Emily Rodriguez
+                Ms. Santhoshi Kumar
               </h3>
-              <p className="text-gray-600 mb-2">ELA Specialist</p>
               <p className="text-sm text-gray-500">
-                Masters in Educational Psychology with expertise in creative
-                writing and reading comprehension.
+                Certified early childhood educator with 8 years of Montessori
+                experience and 6 years at iCreative Learning, passionate about
+                teaching young children and nurturing their curiosity to foster
+                lifelong learning.
               </p>
             </div>
 
             <div className="text-center">
               <img
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&auto=format"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F4581441d34fa44e18bbcc89adbb93d62"
                 alt="Teacher"
                 className="w-48 h-48 object-cover rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-icreative-purple mb-2">
-                Mr. David Kim
+                Ms. Bhagya
               </h3>
-              <p className="text-gray-600 mb-2">CogAT Instructor</p>
               <p className="text-sm text-gray-500">
-                Certified in gifted education with specialization in cognitive
-                abilities testing and development.
+                With a Diploma in Elementary Teacher Education, I am a board
+                certified Elementary Teacher. I have been working as a
+                Mathematics teacher for Middle School students at the Public
+                School for the past three years and have been part of iCreative
+                Learning for the past year.
               </p>
             </div>
           </div>

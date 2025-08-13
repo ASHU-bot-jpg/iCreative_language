@@ -64,7 +64,7 @@ export default function Footer() {
                 About Us
               </Link>
               <Link
-                to="/team"
+                to="/about"
                 className="block text-sm text-gray-500 hover:text-icreative-purple"
               >
                 Our Team

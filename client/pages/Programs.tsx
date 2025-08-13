@@ -7,7 +7,7 @@ const programs = [
   {
     title: "Cognitive Math",
     imageSrc:
-      "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=550&h=370&fit=crop&auto=format",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F8efe85d082c7174c92989bba6b51a8d12eaef376",
     imageAlt: "Cognitive Math Program",
     tags: [
       "Hands-on Math Activities",
@@ -18,7 +18,7 @@ const programs = [
   {
     title: "English Language Arts (ELA)",
     imageSrc:
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=550&h=370&fit=crop&auto=format",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F3af1a4c868f7209af62fd7087a32248d4b577f3b",
     imageAlt: "English Language Arts Program",
     tags: [
       "Creative writing and storytelling",
@@ -40,7 +40,7 @@ const programs = [
   {
     title: "CogAT",
     imageSrc:
-      "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=550&h=370&fit=crop&auto=format",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F9991320143bb4a38609b0acd205800f1fecd1c14",
     imageAlt: "CogAT Program",
     tags: [
       "Sharpens Logical and Abstract Thinking",
@@ -56,7 +56,7 @@ export default function Programs() {
       <Navigation />
 
       {/* Page Header */}
-      <section className="py-8 sm:py-16 bg-white pt-20">
+      <section className="py-8 sm:py-16 bg-white pt-16">
         <div className="max-w-7xl mx-auto px-4 lg:px-20 text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-icreative-purple mb-8 font-roboto">
             Our Core Offerings
