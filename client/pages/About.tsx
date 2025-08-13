@@ -8,7 +8,7 @@ export default function About() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="py-16 pt-20">
+      <section className="py-16 pt-16">
         <div className="max-w-7xl mx-auto px-4 lg:px-20">
           <div className="grid lg:grid-cols-3 gap-8 items-center">
             {/* Left Content */}
