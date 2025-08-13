@@ -34,9 +34,9 @@ export default function Index() {
           <div className="flex justify-center lg:justify-end order-first lg:order-last">
             <div className="relative">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F2e114e41861d46d2a9c7db468074aa54?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0b%2F2e114e41861d46d2a9c7db468074aa54?format=webp&width=800"
                 alt="Smiley kids in the main plan"
-                className="w-full max-w-lg h-60 sm:h-80 object-cover rounded-3xl shadow-lg"
+                className="w-full max-w-2xl h-72 sm:h-80 object-cover rounded-3xl shadow-lg"
               />
             </div>
           </div>
