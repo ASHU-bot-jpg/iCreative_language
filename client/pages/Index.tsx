@@ -57,7 +57,7 @@ export default function Index() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-600 rounded-3xl opacity-20"></div>
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F7b69f023d5684050b5644296d1a88582"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dea029619d64c5c95c3070ae0fffe0b%2F8aa4cf09caeb4e58bde5caf7b6aa17fa"
                 alt="Innovation elements"
                 className="w-full h-80 object-cover rounded-3xl relative z-10"
               />
